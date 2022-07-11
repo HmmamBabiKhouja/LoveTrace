@@ -3710,10 +3710,10 @@ mark {
 .cd-main-header {
     height: 200px;
     height: var(--cd-header-height);
-    background: hsl(206, 21%, 24%);
-    background: var(--cd-color-1);
-    color: hsl(0, 0%, 100%);
-    color: var(--color-white);
+    background: hsl(0, 0%, 7%);
+    background: var(--titles-text);
+    color: hsl(0, 0%, 96%);
+    color: var(--mybackground);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
@@ -4046,21 +4046,21 @@ mark {
 }
 
 .header-names{
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
 
 .header-quran{
-    padding: 0 10px;
-    font-size: 1.8rem;
+    padding: 0 24px;
+    font-size: 1.2rem;
 }
 
 @media (max-width: 360px) {
     .header-names{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .header-quran{
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
 }
